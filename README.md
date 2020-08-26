@@ -1,0 +1,1 @@
+This project is a Google homepage clone, without functionality.
