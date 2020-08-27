@@ -1,1 +1,1 @@
-This project is a Google homepage clone, without functionality.
+This project is a Google homepage clone using HTML and CSS.
