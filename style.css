@@ -1,6 +1,6 @@
 #logo{
     margin: auto;
-    margin-top: 160px;
+    margin-top: 140px;
     display: block;
     width: 272px;
     height: 92px;
@@ -86,6 +86,60 @@
     box-shadow: 0 1px 1px rgba(0,0,0,0.1);
     color: black;
     cursor: pointer;
+}
+
+nav.top{
+    display: flex;
+    font-family: arial, sans-serif;
+    font-size: 13px;
+    height: 35px;
+    align-items: center;
+    padding: 5px;
+}
+
+nav.top a{
+    flex-grow: 0;
+    padding-left: 8px;
+    padding-right: 8px;
+    color: rgba(0, 0, 0, 0.75);
+    text-decoration: none;
+}
+
+nav.top div.navspace{
+    flex-grow: 1;
+}
+
+nav.top a:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#signin:hover{
+    text-decoration: none;
+    cursor: default;
+}
+
+#dots:hover{
+    opacity: 1;
+}
+
+#signin{
+    background-color: #4285F4;
+    color: white;
+    height: 30px;
+    width: 50px;
+    line-height: 30px;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 2px;
+}
+
+#dots{
+    padding-top: 5px;
+    padding-right: 10px;
+    opacity: 0.65;
+    height: 25px;
+    width: 25px;
 }
 
 
